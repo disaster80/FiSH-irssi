@@ -8,10 +8,11 @@ pkglib_LTLIBRARIES = libfish.la
 libfish_la_SOURCES = SHA256.c \
 				 base64.c \
 				 blowfish.c \
-				 cfgopts.c \
+				 cfgsqlite.c \
 				 DH1080.c \
 				 FiSH.c \
 				 randport.c
+#				 cfgopts.c
 #				 logManager.c
 libfish_la_LDFLAGS = -module -avoid-version -shared @OPENSSL_LIBS@
 libfish_la_CFLAGS = $(AM_CFLAGS)

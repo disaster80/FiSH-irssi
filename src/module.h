@@ -1,5 +1,3 @@
-//#define HAVE_CONFIG_H
-
 #define MODULE_NAME "fish"
 
 #include <common.h>

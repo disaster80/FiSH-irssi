@@ -1,7 +1,7 @@
 #include <time.h>
 #include <unistd.h>
 
-#include "cfgopts.h"
+#include "cfgsqlite.h"
 #include "blowfish.h"
 #include "DH1080.h"
 #include "config.h.in"
